@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Actor&display=swap");
+
+.addServiceForm {
+  font-family: "Actor", sans-serif;
+  font-size: 20px;
+  padding: 5%;
+  font-weight: bold;
+}
+
+.addServiceForm__btn {
+  margin: 13% 0;
+}
+
+.addServiceForm__form {
+  height: 50px;
+  border: none;
+  font-size: 15px;
+  font-family: "Actor", sans-serif;
+  font-weight: 600;
+}
+
+.addServiceForm__form:focus {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+
+@media (max-width: 756px) {
+  .addServiceForm__btn {
+    margin: 5% 0;
+  }
+}

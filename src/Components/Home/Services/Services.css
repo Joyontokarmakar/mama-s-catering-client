@@ -1,0 +1,105 @@
+.card_details{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    /* line-height: 16px; */
+    /* max-height: 32px; */
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    font-size: 12px;
+}
+
+.card_name{
+    font-size: 14px;
+}
+
+.service__card{
+    border: 1px solid #ddd;
+}
+
+/* ===================== */
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .crd {
+    border-radius: 15px;
+    padding: 1.5rem;
+    background: white;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    transition: 0.4s ease-out;
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+  }
+  .crd:hover {
+    transform: translateY(20px);
+  }
+  .crd:hover:before {
+    opacity: 1;
+  }
+  .crd:hover .info {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  .crd:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 2;
+    transition: 0.5s;
+    opacity: 0;
+  }
+  .crd img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 15px;
+  }
+  .crd .info {
+    position: relative;
+    z-index: 3;
+    color: white;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: 0.5s;
+  }
+  .crd .info h1 {
+    margin: 0px;
+    font-size: 14px;
+  }
+  .crd .info p {
+    font-size: 12px;
+    margin-top: 8px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+  }
+  .crd .info button {
+    padding: 0.6rem;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    background: white;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.4s ease;
+  }
+  .crd .info button:hover {
+    background: dodgerblue;
+    color: white;
+  }

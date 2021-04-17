@@ -1,0 +1,36 @@
+.banner__btn:hover {
+  background-color: transparent;
+  color: #000;
+}
+
+.banner__btn {
+  background-color: #000;
+}
+
+.banner_right::after{
+  content: "";
+  background-image: url('../../../images/banner/cook.png');
+  opacity: 0.2;
+  top: 55px;
+  left: 75px;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  background-size: 85%;
+  background-repeat: no-repeat;
+}
+
+.banner_right{
+  display: flex;
+  align-items: center;
+}
+
+.right_content{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.main_banner{
+  background-color:#13381f73;
+}

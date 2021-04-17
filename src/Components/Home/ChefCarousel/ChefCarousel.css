@@ -1,0 +1,43 @@
+.cheifcarouselDetails {
+  background-color: #13381f73;
+  border-radius: 8px;
+  box-shadow: -1px 0px 12px 5px #dcdcdc;
+  padding: 10%;
+}
+
+.carouselDetails__header {
+  color: #7ab259;
+}
+
+.carouselDetails__img {
+  width: 350px;
+  padding: 10px;
+}
+
+.carouselDetails__imgExt {
+  width: 350px;
+  padding: 10px;
+  height: 256px;
+}
+
+.alice-carousel__dots-item:hover,
+.alice-carousel__dots-item.__active {
+  background-color: #ffc107 !important;
+}
+
+.chef_detail h4{
+  font-size: 16px;
+}
+
+.chef_detail h6{
+  font-size: 14px;
+}
+
+.chef_detail p{
+  font-size: 12px;
+}
+
+.chef_detail{
+  text-align: left !important;
+  padding-top: 10%;
+}

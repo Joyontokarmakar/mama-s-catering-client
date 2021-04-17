@@ -1,0 +1,20 @@
+.client {
+  padding: 10% 0 5% 0;
+}
+
+.client_img img{
+  width: 85%;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+}
+
+.client_img img:hover{
+  filter: grayscale(0%);
+  transition: 0.4s;
+  -webkit-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+}

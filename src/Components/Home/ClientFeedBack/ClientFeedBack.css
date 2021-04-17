@@ -1,0 +1,32 @@
+.clientFeedBack {
+  padding: 10%;
+}
+
+.clientFeedBack__card.card {
+  border: none;
+  padding: 10px;
+  box-shadow: 10px 10px 50px lightgray;
+  cursor: pointer;
+}
+
+.common_style{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.client_avatar{
+  height: 60px !important;
+  width: 80px !important;
+  border-radius: 50%;
+  margin: 15px 0 0 10px;
+}
+
+.client_name{
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.client_org{
+  font-size: 12px;
+}

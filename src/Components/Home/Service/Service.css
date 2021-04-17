@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+.service {
+  padding: 5% 10%;
+  font-family: 'RocknRoll One', sans-serif;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.service__header {
+  color: #9cc684;
+}
+
+.service__img {
+  width: 100px;
+  padding: 10px 0;
+}
+
+.service__card {
+  border: none;
+  cursor: pointer;
+  transition: 0.5s;
+  font-family: "RocknRoll One", serif;
+}
+
+.service__card:hover {
+  box-shadow: 10px 10px 50px lightgray;
+}
