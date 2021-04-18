@@ -14,7 +14,7 @@ const Footer = () => {
       <Container>
         <Row>
           <Col md={{ span: 4, offset: 1 }} className="mt-5 mb-5">
-            <h2>
+            <h2 className="newsletter_title">
               Let's us handle your <br /> meal, properly.
             </h2>
             <p className="text-black mt-3">

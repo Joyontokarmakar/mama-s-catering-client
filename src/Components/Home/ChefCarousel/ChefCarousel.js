@@ -17,7 +17,7 @@ const items = [
   <div className="item">
     <div className="row">
       <Col md={4}>
-        <img className="carouselDetails__img img-fluid" alt="" src={img1} />
+        <img className="chefcarouselDetails__img img-fluid" alt="" src={img1} />
       </Col>
       <Col md={8}>
         <div className="chef_detail">
@@ -31,7 +31,7 @@ const items = [
   <div className="item">
     <div className="row">
       <Col md={4}>
-        <img className="carouselDetails__img img-fluid" alt="" src={img2} />
+        <img className="chefcarouselDetails__img img-fluid" alt="" src={img2} />
       </Col>
       <Col md={8}>
       <div className="chef_detail">
@@ -45,7 +45,7 @@ const items = [
   <div className="item">
     <div className="row">
       <Col md={4}>
-        <img className="carouselDetails__img img-fluid" alt="" src={img3} />
+        <img className="chefcarouselDetails__img img-fluid" alt="" src={img3} />
       </Col>
       <Col md={8}>
         <div className="chef_detail">

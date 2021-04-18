@@ -100,12 +100,12 @@ const OrderForm = () => {
                 </span>
               </Form.Group>
               <Row>
-                <Col md={6}>
+                <Col md={12}>
                   <Form.Group>
                     <Form.Control
                       name="price"
                       type="text"
-                      placeholder="Price"
+                      placeholder="Payable Amount"
                       className="order__form"
                       ref={register({
                         required: "Price is required",
@@ -121,31 +121,7 @@ const OrderForm = () => {
                   </Form.Group>
                 </Col>
                 <Col md={6}>
-                  <div className="order">
-                    <input
-                      type="file"
-                      name="file"
-                      id="file"
-                      className="inputFile"
-                      ref={register({
-                        required: true,
-                      })}
-                    />
-                    <label htmlFor="file">
-                      <span>
-                        {" "}
-                        <CloudUploadIcon />{" "}
-                      </span>
-                      <span style={{ fontSize: "14px" }}>
-                        Upload project file
-                      </span>
-                    </label>
-                    <br />
-                    <span style={{ color: "red" }}>
-                      {" "}
-                      {errors.file && "File is required"}{" "}
-                    </span>
-                  </div>
+                  
                 </Col>
               </Row>
               <input

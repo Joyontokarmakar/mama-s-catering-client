@@ -6,6 +6,7 @@ import TextsmsOutlinedIcon from "@material-ui/icons/TextsmsOutlined";
 import { NavLink } from "react-router-dom";
 import { Avatar } from "@material-ui/core";
 import { userInformationData } from "../../../App";
+import './CollapseBar.css';
 
 const CollapseBar = () => {
   const [userData, setUserData] = useContext(userInformationData);
@@ -18,7 +19,7 @@ const CollapseBar = () => {
                 style={{ fontFamily: "Piazzolla, serif" }}
                 to="/order"
                 activeClassName="sidebar__active"
-                className="list-group-item list-group-item-action  "
+                className="list-group-item list-group-item-action admin_sidenav"
               >
                 <ShoppingCartOutlinedIcon /> Order
               </NavLink>
@@ -28,7 +29,7 @@ const CollapseBar = () => {
                 style={{ fontFamily: "Piazzolla, serif" }}
                 to="/service-list"
                 activeClassName="sidebar__active"
-                className="list-group-item list-group-item-action "
+                className="list-group-item list-group-item-action admin_sidenav"
               >
                 <SpeakerNotesOutlinedIcon /> Service list
               </NavLink>
@@ -39,7 +40,7 @@ const CollapseBar = () => {
                 style={{ fontFamily: "Piazzolla, serif" }}
                 to="/review"
                 activeClassName="sidebar__active"
-                className="list-group-item list-group-item-action "
+                className="list-group-item list-group-item-action admin_sidenav"
               >
                 <TextsmsOutlinedIcon /> Review
               </NavLink>

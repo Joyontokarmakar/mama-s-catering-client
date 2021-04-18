@@ -31,7 +31,7 @@ const Services = ({ newService, handleService, handleOrderPage }) => {
               <div class="info">
                 <h1>{newService.service}</h1>
                 <p>{newService.description}</p>
-                <button>Read More</button>
+                <button>Buy Now</button>
               </div>
             </div>
           </div>

@@ -12,12 +12,13 @@
 }
 
 a.list-group-item.list-group-item-action.sidebar__active {
-  background: white;
-  color: #7ab259 !important;
+  background-color: #FFF;
+  color: #FF7500;
   border: none;
+  border-right: 4px solid #FF7500;
 }
 a.list-group-item.list-group-item-action {
-  background: white;
+  background: #95A59A;
   color: #000;
   border: none;
   font-family: "Actor", sans-serif;
@@ -53,4 +54,9 @@ a.list-group-item.list-group-item-action {
   #wrapper.toggled #sidebar-wrapper {
     margin-left: -15rem;
   }
+}
+
+
+.dashboard_sidenav{
+  background-color: #95A59A;
 }

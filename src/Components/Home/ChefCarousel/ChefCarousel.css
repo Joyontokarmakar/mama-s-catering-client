@@ -9,13 +9,13 @@
   color: #7ab259;
 }
 
-.carouselDetails__img {
-  width: 350px;
+.chefcarouselDetails__img {
+  /* width: 350px; */
   padding: 10px;
 }
 
-.carouselDetails__imgExt {
-  width: 350px;
+.chefcarouselDetails__imgExt {
+  /* width: 350px; */
   padding: 10px;
   height: 256px;
 }

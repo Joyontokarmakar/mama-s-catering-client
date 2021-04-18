@@ -95,7 +95,7 @@ const Service = () => {
               variant="outline-secondary"
               onClick={() => handleGoogleLogin()}
             >
-              Before Selecting You Must Log In
+              Before Selecting Packages You Must Log In
             </Button>
           )}
         </Row>

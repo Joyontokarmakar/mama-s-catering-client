@@ -20,7 +20,7 @@ const Chef = () => {
                         <div className="col-md-6">
                             <ChefCarousel/>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-6 d-flex align-items-center justify-content-center">
                             <Accordionsection/>
                         </div>
 

@@ -13,7 +13,7 @@ const Sidebar = ({ heading }) => {
 
   return (
     <div className="d-flex mb-5" id="wrapper">
-      <div className="border-right border-0 d-none d-md-none d-lg-block" id="sidebar-wrapper">
+      <div className="border-right border-0 d-none d-md-none d-lg-block dashboard_sidenav" id="sidebar-wrapper">
         <div className="sidebar-heading">
           <NavLink to="/">
             <img src={logo} width="150" height="50" className="d-inline-block align-top mt-2" alt=""/>
@@ -25,7 +25,7 @@ const Sidebar = ({ heading }) => {
       </div>
 
       <div style={{ background: "#F4F7FC" }} id="page-content-wrapper">
-        <nav style={{ background: "#ffffff" }} className="navbar navbar-expand-lg navbar-light">
+        <nav style={{ background: "rgb(205, 212, 190)" }} className="navbar navbar-expand-lg navbar-light">
           <h3 className="d-none d-md-none d-lg-block" style={{ fontFamily: "Piazzolla, serif" }}>
             {heading}
           </h3>
