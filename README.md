@@ -44,7 +44,7 @@
   - Then they will rederect to Order page
   - and now then can order product
 
-  - after submiyying the order user can see their ordered list and status
+  - after submitting the order user can see their ordered list and status
   - user can give the review of services
 
 ## What Will do Admin
